@@ -1,0 +1,20 @@
+footer {
+    height: 140px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    background-color: $brandColor;
+    color: $white;
+
+    font-family: $poppins;
+    font-size: 20px;
+    font-weight: 300;
+
+    address {
+        opacity: 0.5;
+    }
+    
+}

@@ -1,0 +1,44 @@
+.l-header {
+    // background-color: $brandColor;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    .l-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        h1 {
+            font-family: $dancingScript;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 37px;
+        }
+    }
+
+    &__nav {
+        
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                margin-right: 50px;
+
+                a {
+                    font-family: $poppins;
+                    font-size: 12px;
+                    line-height: 16px;
+                    padding: 60px 0 10px;
+                }
+            }
+
+            li:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

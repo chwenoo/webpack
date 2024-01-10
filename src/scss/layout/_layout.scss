@@ -1,0 +1,32 @@
+// css
+// FLOCSS folder structure
+// variable define & mixin define
+// component ( c-btn, _card.scss)
+// _top.scss
+
+.l-container-full {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.l-container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.l-row {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__col {
+        width: 50%;
+    }
+}
+
+.l-py-70 {
+    padding: 70px 0;
+}
+
+.l-pt-70 {
+    padding-top: 70px;
+}

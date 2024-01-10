@@ -1,0 +1,28 @@
+.p-video {
+    background: url('../img/bg2.png') no-repeat center;
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__inner {
+        text-align: center;
+        color: white;
+
+        h3 {
+            font-size: 35px;
+            margin: 55px 0 25px;
+        }
+
+        p {
+            width: 770px;
+            line-height: 25px;
+        }
+    }
+
+    &__icon {
+        width: 80px;
+        margin: 0 auto;
+    }
+}
