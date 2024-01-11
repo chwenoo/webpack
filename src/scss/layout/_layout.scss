@@ -4,11 +4,6 @@
 // component ( c-btn, _card.scss)
 // _top.scss
 
-.l-container-full {
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
 .l-container {
     max-width: 1080px;
     margin: 0 auto;
@@ -17,10 +12,17 @@
 .l-row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: $white;
 
     &__col {
         width: 50%;
     }
+}
+
+.l-row--bgNone {
+    background-color: inherit;
 }
 
 .l-py-70 {
